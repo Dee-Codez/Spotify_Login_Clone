@@ -1,0 +1,185 @@
+body{
+    height: 100%;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.container{
+    padding-top: .5em;
+    flex-direction: column;
+    display: flex;
+}
+
+.container .headlogo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0.4em;
+    height: 40px;
+    border-bottom: 1px solid rgb(217,218,220);
+}
+
+.headlogo img{
+    width: auto;
+    height: 35px;
+    background-color: black;
+    filter: invert(100%);
+}
+
+.contbtns{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em
+}
+
+.contbtns button:hover{
+    border: .5px solid black;
+}
+
+.container .contbtns .fb button{
+    background-color: rgb(24, 119, 242);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    color: rgb(232, 242, 254);
+    border: .5px solid rgb(21, 95, 193);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+    margin-top: 1.5em;
+}
+
+.container .contbtns .apple button{
+    background-color: rgb(25, 25, 25);
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    color: rgb(228, 228, 228);
+    border: .5px solid rgb(135, 135, 135);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+}
+
+
+.container .contbtns .google button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    color: rgb(108, 108, 108);
+    border: .5px solid rgb(143, 143, 143);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+}
+
+.container .contbtns .phn button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    border-radius: 50px;
+    color: rgb(108, 108, 108);
+    border: .5px solid rgb(143, 143, 143);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+}
+
+.orbox{
+    display: flex;
+    width: 29em;
+    flex-direction: row;
+    align-self: center;
+}
+
+.orbox hr{
+    flex: 1;
+    margin: 1em;
+}
+
+.mailpassbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailpassbox .mail{
+    width: 26.5em;
+    align-items: flex-start;
+}
+
+.mail form label{
+    font-size: 13.5px;
+}
+
+.email{
+    margin-top: 5px;
+    padding-left: 8px;
+    font-weight: 550;
+    height: 35px;
+    width: 32.5em;
+    font-size: 13px;
+}
+
+.pass{
+    margin-top: 5px;
+    padding-left: 8px;
+    font-weight: 550;
+    height: 35px;
+    width: 32.5em;
+    font-size: 13px;
+}
+ 
+.container .mailpassbox .mail form .forgot{
+    text-decoration: underline;
+    font-weight: 200;
+}
+
+.container .mailpassbox .mail .forgot:hover{
+    color: solid rgb(17, 122, 55);
+}
+
+.container .mailpassbox .mail button{
+    background-color: rgb(31, 223, 100);
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: rgb(25, 25, 25);
+    border: .5px solid rgb(135, 135, 135);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+    margin-top: 2.5em;
+}
+
+hr {
+    align-self: center;
+    height: 1px;
+    border: 0;
+    width: 27em;
+    border-top: 1px solid #ccc;
+    margin-top: 2em;
+    padding: 0;
+}
+
+.noacc{
+    align-self: center;
+    font-size: 19px;
+    letter-spacing: 0.8px;
+}
+
+.container button{
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: rgb(108, 108, 108);
+    border: .5px solid rgb(143, 143, 143);
+    text-align: center;
+    height: 3.5em;
+    width: 32.5em;
+}
